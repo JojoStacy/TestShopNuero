@@ -7,6 +7,10 @@ package com.neuroinnova.neuroinnovasampleapp.model;
 public class Product {
 
 
+    public Product ()
+    {
+
+    }
     public Product(long id,String imageUrl,int price,int discount, String name,Model model,String barcode,Category category,Manufacturer manufacturer)
     {
         this.id=id;
